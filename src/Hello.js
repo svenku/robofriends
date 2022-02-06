@@ -11,4 +11,17 @@ class Hello extends Component {
   }
 }
 
+// equivalent:
+//
+// const Hello = (props) => {
+//   return (
+//       <div className="f1 tc">
+//         <h1>{props.greeting}</h1>
+//       </div>
+//     )
+// }
+
+
+
+
 export default Hello;
